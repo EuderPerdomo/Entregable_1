@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*background-color: black;*/
+}
+
+.formularios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: none;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+
+form{
+	width:900px;
+	padding:16px;
+	border-radius:10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	background-color:#d4d3d3;
+}
+
+#mensaje{
+    width: 500px;
+    border: none; 
+    border-radius: 7px;  
+}
+
+input{
+    width: 500px;
+    border: none;
+    height: 40px;
+    border-radius: 7px;
+
+}
+
+
+div {
+    margin: .4em 0;
+  }
+
+ div label {
+    width: 25%;
+    float: left;
+  }
+
+  #enviar{
+      width: 500px;
+  }
+  .boton input{
+    margin-left: 25%;
+  }
+
