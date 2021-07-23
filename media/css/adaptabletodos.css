@@ -213,18 +213,18 @@ padding-top: 40px;
     color: black;
   }
   
-  /* Add an active class to highlight the current page */
+
   .barra a.active {
     background-color: #d4d3d3;
     color: white;
   }
   
-  /* Hide the link that should open and close the topnav on small screens */
+
   .barra .icon {
     display: none;
   }
 
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+ 
 @media screen and (max-width: 600px) {
     .barra a:not(:first-child) {display: none;}
     .barra a.icon {
@@ -233,7 +233,7 @@ padding-top: 40px;
     }
   }
   
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
   @media screen and (max-width: 600px) {
     .barra.responsive {position: relative;}
     .barra.responsive a.icon {
@@ -292,3 +292,73 @@ padding-top: 40px;
         padding: 25px 16px;
     }
   }
+
+
+  /********************************** Sección de casos de exito *********************************/
+  .contenedorPrincipal{
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+  }
+
+.contenedorPrincipal div{
+    width: 30%;
+    height: auto;
+    background: -webkit-linear-gradient(bottom, #d4d3d3, #666666);
+}
+
+.contenedorPrincipal div img{
+    width: 100%;
+    max-height: 250px;
+}
+
+.contenedorPrincipal div.descripcioncaso{
+    width: 100%;
+}
+
+.contenedorPrincipal div input{
+    width: 100%;
+}
+
+.tituloCasos{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.descripcioncaso h6{
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .contenedorPrincipal div.descripcioncaso p{
+    display: none;
+    }
+
+    .contenedorPrincipal{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+.contenedorPrincipal div{
+        margin-top: 5px;
+    }
+
+    .descripcioncaso h6{
+        font-size: 1rem;
+
+    }
+
+      }
