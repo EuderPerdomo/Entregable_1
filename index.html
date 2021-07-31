@@ -1,121 +1,185 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-  <title>Pagina Para BIT</title>
-  <meta charset="utf-8">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
    <!--Hojas de Estilo-->
-   <link rel="stylesheet" href="./media/css/adaptabletodos.css">
+   <link rel="stylesheet" href="./media/css/index.css">
 
-   <!--Scrips-->
-   <script src="./media/script/script.js"></script>
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/4b793fdcfb.js" crossorigin="anonymous"></script>
 
-  <!--Iconos-->
-  <script src="https://kit.fontawesome.com/4b793fdcfb.js" crossorigin="anonymous"></script>
+
+    <!--Fuentes de Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
 </head>
 
+
+<!--WhatsApp-->
+<a href="https://wa.link/c6vxhh" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+<!--Fin WhatsApp   https://crear.wa.link/ 
+https://codepen.io/gabrielchavezme/pen/oMyaaZ-->
+
 <body>
-<div class="container-fluid">
-  <header class="cabeza">
-    <div class="barraInfo" id="info">
-      <ul>
-        <li><a href="#HorarioAtencion"> <i class="fas fa-clock"></i> Horarios de atencion</a></li>
-        <li><a href="#Contactenos"><i class="fas fa-phone"></i> Contactenos</a></li>
-        <li><a href="#CarritoCompra"><i class=" fas fa-shopping-cart"></i> Carrito de compra</a></li>
-        <li><a href="#Micuenta"><i class="fas fa-user-circle"></i> Mi cuenta</a></li>
-      </ul>
+
+    <div class="container-fluid">
+
+<header>
+    <div class="encabezado">
+
+      <div class="myflex"> <!--Contenedor padre-->
+        <div class="infoflex" id="infoflex" style="height: 23vh;">
+          <ul>
+            <li><a href="#HorarioAtencion"> <i class="fas fa-clock"></i> HORARIOS DE ATENCIÓN</a></li>
+            <li><a href="contactenos.html"><i class="fas fa-phone"></i> CONTACTENOS</a></li>
+            <li><a href="index.html"><img class="iconoflex" src="./media/img/logo_5.png" alt=""></a></li>
+            <li><a href="#CarritoCompra"><i class=" fas fa-shopping-cart"></i> CARRITO DE COMPRA</a></li>
+            <li><a href="#Micuenta"><i class="fas fa-user-circle"></i> MI CUENTA</a></li>
+          </ul>
+        </div>
+      </div><!--Fin Contenedor padre-->
+
+      
+
+          <div class="barra" id="myBarra" style="height: 14vh; padding-bottom: 13px;">
+            <!-- <a href="index.html" class="active"><img class="icono" src="./media/img/logo_3.png" alt=""></a> -->
+            <a href="index.html">Inicio</a>
+            <a href="#Blog">Blog</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="#Calculadora_Solar">Calculadora Solar</a>
+            <a href="javascript:void(0);" class="icon" onclick="collapseMenu()">
+              <i class="fa fa-bars"></i></a>
+          </div>
+
+         <div class="cajaBanner" >
+            <div class="cajasBanner" id="caja_1">
+              <h1>ENERGÍA SOLAR</h1>
+              <p>"Una forma de energia limpia y que ayuda a conservar nuestro planeta"</p>
+              <center><i class="fas fa-recycle"></i></center>
+              
+            </div>
+            <div class="cajasBanner" id="caja_2">
+              <img src="./media/img/banner_4.jpg" alt="Banner no encontrado">
+            </div>
+          </div> 
+
+
+
+          <!--Original-->
+          <!--
+            <section class="cajaBanner" style="height: 62vh;background-image: url('./media/img/banner_4.png') ;background-repeat: no-repeat;">
+            <div class="cajasBanner">
+              <h1>ENERGÍA SOLAR</h1>
+              
+            </div>
+            <div class="cajasBanner">
+            </div>
+          </section> 
+          -->
+      
+
     </div>
 
-    <section class="cajaBanner">
-      <div class="cajasBanner">
-        <h1>ENERGÍA SOLAR</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dicta adipisci dolorum ea corporis est
-          consequuntur ex commodi maiores totam temporibus, harum vel assumenda dolorem quasi voluptate ipsa nemo
-          fugiat?</p>
-        <p><i class="fas fa-solar-panel fa-5x"></i></p>
-      </div>
-      <div class="cajasBanner">
-        <img src="./media/img/banner_2.jpg" alt="Banner no encontrado">
-        <!-- <a href='https://www.freepik.es/vectores/papel'>Vector de Papel creado por pikisuperstar - www.freepik.es</a>-->
-      </div>
-    </section>
-
-    <div class="barra" id="myBarra">
-      <a href="index.html" class="active"><img class="icono" src="./media/img/logo_3.png" alt=""></a>
-      <a href="index.html">Inicio</a>
-      <a href="#Blog">Blog</a>
-      <a href="tienda.html">Tienda</a>
-      <a href="contactenos.html">Contactenos</a>
-      <a href="javascript:void(0);" class="icon" onclick="collapseMenu()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
 
 
-  </header>
 
+</header>
 
-  <main>
-    <section class="tituloCasos">
-      <h1>Casos de Éxito</h1>
-    </section>
- 
+<main>
+  <section class="tituloCasos">
+    <h1>ÉXITOS DE NUESTROS CLIENTES</h1>
+  </section>
+
 
 <div class="contenedorPrincipal">
 
-  <div>
-    <img src="./media/img/casos/caso_1.jpeg" alt="">
+<div>
+  <img src="./media/img/casos/caso_1.jpeg" alt="">
 
-    <div class="descripcioncaso"> 
-    <h6> Alumbrado Publico, Eje Cafetero </h6>
+  <div class="descripcioncaso"> 
+  <h6> Alumbrado Publico, Eje Cafetero </h6>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam odit placeat, modi debitis deserunt labore.
+     Veniam dolorem quaerat consectetur hic ipsa. Nam dolores consequuntur similique. Odio voluptatem quia nemo accusamus.</p>
+  </div>
+   <input type="button" class="btn btn-primary " value="Ver Más.." class="leer">
+</div>
+
+<div>
+  <img src="./media/img/casos/caso_2.jpg" alt="">
+  <div class="descripcioncaso"> 
+    <h6> Autoconsumo, Venecia Cundinamarca </h6>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam odit placeat, modi debitis deserunt labore.
        Veniam dolorem quaerat consectetur hic ipsa. Nam dolores consequuntur similique. Odio voluptatem quia nemo accusamus.</p>
     </div>
-     <input type="button" class="btn btn-primary " value="Ver Más.." class="leer">
-  </div>
+    <input type="button" class="btn btn-primary " value="Ver Más.." class="leer">
+</div>
 
-  <div>
-    <img src="./media/img/casos/caso_2.jpg" alt="">
-    <div class="descripcioncaso"> 
-      <h6> Autoconsumo, Venecia Cundinamarca </h6>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam odit placeat, modi debitis deserunt labore.
-         Veniam dolorem quaerat consectetur hic ipsa. Nam dolores consequuntur similique. Odio voluptatem quia nemo accusamus.</p>
-      </div>
-      <input type="button" class="btn btn-primary " value="Ver Más.." class="leer">
-  </div>
-
-  <div>
-    <img src="./media/img/casos/caso_3.jpg" alt="">
-    <div class="descripcioncaso"> 
-      <h6> 8KW Escuela Rural Atlantico </h6>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam odit placeat, modi debitis deserunt labore.
-         Veniam dolorem quaerat consectetur hic ipsa. Nam dolores consequuntur similique. Odio voluptatem quia nemo accusamus.</p>
-      </div>
-      <input type="button" class="btn btn-primary " value="Ver Más.." class="leer">
-  </div>
+<div>
+  <img src="./media/img/casos/caso_3.jpg" alt="">
+  <div class="descripcioncaso"> 
+    <h6> 8KW Escuela Rural Atlantico </h6>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam odit placeat, modi debitis deserunt labore.
+       Veniam dolorem quaerat consectetur hic ipsa. Nam dolores consequuntur similique. Odio voluptatem quia nemo accusamus.</p>
+    </div>
+    <input type="button" class="btn btn-primary " value="Ver Más.." class="leer">
+</div>
 
 </div>
 
-  </main>
-  <footer class=" text-center text-lg-start">
-    <!-- Copyright -->
-    <div class="text-center p-3">
-      © 2021 Copyright:
-      <a class="text-dark" href="#">Fabian P</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-</div><!--Cierre container Fluid-->
-</body>
+</main>
 
+<!-- <footer class=" text-center text-lg-start">
+  <div class="text-center p-3">
+    © 2021 Copyright:
+    <a class="text-dark" href="#">Fabian P</a>
+  </div>
+</footer> -->
+
+<footer class="piePagina" >
+
+<div class="apartado" id="uno">
+  <input type="button" class=" botones btn btn-primary " value="¡ QUIERO APRENDER...!" class="leer">
+  <input type="button" class=" botones btn btn-primary " value="! NECESITO MÁS INFORMACIÓN ¡" class="leer">
+</div>
+
+<div class="apartado" id="dos">
+
+<div id="fila_1">
+  <i class="fab fa-facebook"></i>
+  <i class="fab fa-whatsapp"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-linkedin-in"></i>
+  <i class="fab fa-youtube"></i>
+</div>
+<hr>
+<div id="fila_2">
+  <ul>
+    <li>Inicio |</li>
+    <li>Blog |</li>
+    <li>Tienda |</li>
+    <li>Calculadora Solar</li>
+  </ul>
+</div>
+
+
+
+
+</div>
+</footer>
+
+
+
+</div><!--Cierre container Fluido--> 
+</body>
 </html>

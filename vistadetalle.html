@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   <!--Hojas de Estilo-->
+   <link rel="stylesheet" href="./media/css/vistadetalle.css">
+
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/4b793fdcfb.js" crossorigin="anonymous"></script>
+
+
+    <!--Fuentes de Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="encabezado">
+        
+              <div class="myflex"> <!--Contenedor padre-->
+                <div class="infoflex" id="infoflex" style="height: 23vh;">
+                  <ul>
+                    <li><a href="#HorarioAtencion"> <i class="fas fa-clock"></i> HORARIOS DE ATENCIÓN</a></li>
+                    <li><a href="contactenos.html"><i class="fas fa-phone"></i> CONTACTENOS</a></li>
+                    <li><a href="index.html"><img class="iconoflex" src="./media/img/logo_5.png" alt=""></a></li>
+                    <li><a href="#CarritoCompra"><i class=" fas fa-shopping-cart"></i> CARRITO DE COMPRA</a></li>
+                    <li><a href="#Micuenta"><i class="fas fa-user-circle"></i> MI CUENTA</a></li>
+                  </ul>
+                </div>
+              </div><!--Fin Contenedor padre-->
+        
+              
+        
+                  <div class="barra" id="myBarra" style="height: 14vh; padding-bottom: 13px;">
+                    <!-- <a href="index.html" class="active"><img class="icono" src="./media/img/logo_3.png" alt=""></a> -->
+                    <a href="index.html">Inicio</a>
+                    <a href="#Blog">Blog</a>
+                    <a href="tienda.html">Tienda</a>
+                    <a href="#Calculadora_Solar">Calculadora Solar</a>
+                    <a href="javascript:void(0);" class="icon" onclick="collapseMenu()">
+                      <i class="fa fa-bars"></i></a>
+                  </div>            
+        
+            </div>
+        
+        
+        
+        
+        </header>
+
+
+<main>
+
+
+<div class="inicial">
+
+    <div class="imagen">
+        <img src="./media/img/nsv1800.jpg" alt="">
+    </div>
+
+    <div class="describe">
+        <h1>NSV 1800LMPK</h1>
+        <h2>$1´800.000</h2>
+        
+        <h3>Beneficios</h3>
+        <ul>
+            <li> <i class="fas fa-sun"></i> Onda sinusoidal Pura.</li>
+            <li> <i class="fas fa-sun"></i> Capacidad de 3000KW lo cual le permitira alimentar un hogar pequeño con dispositivos comunes.</li>
+            <li> <i class="fas fa-sun"></i> Posibilidad de integrarlo con la red electrica convencional 
+                para usarlo como reserva o trabajo de manera totalmente aislada para suplir todas las cargas.</li>
+            <li> <i class="fas fa-sun"></i> Diseño compacto y elegante incorporando controlador e inversor en un solo dispositivo</li>
+            <li> <i class="fas fa-sun"></i> Display LCD y multiples opciones de programación.</li>
+        </ul>
+
+        <div class="boton"><input type="button" class="btn btn-primary " value="Añadir al carrito" class="leer"></div>
+        <h6>10 Unidades Disponibles</h6>
+
+
+    </div>
+
+</div>
+
+
+<section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <div class="container">
+        <h2>Quieres Saber Más</h2>
+        <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target="#paso1">Preguntas Frecuentes</button>
+        <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target="#paso2">Descripción</button>
+        <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target="#paso3">Ficha Tecnica</button>
+        <button type="button" class="btn btn-secondary" data-toggle="collapse" data-target="#paso4">Documentos y Manuales</button>
+        <hr> <!--Linea de División-->
+    </div>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <div id="paso1" class="collapse">
+      <section>
+        <h1>Preguntas Frecuentes</h1>
+
+        <ul>
+            <li>¿Puedo Trabajarlo sin Baterias?
+                <p>No, no es posible iniciar el equipo sin baterias</p>
+            </li>
+            <li>¿Puedo unir el equipo a otros para aumentar la potencia o formar circuitos trifasicos?
+                <p>Es posible realizar la unión de varios de estos equipos en paralelo de tal manera que podemos incrementar la 
+                    potencia de salida o tambien tener la posibilidad de formar un circuito trifasico. (Si este es tu caso recuerda 
+                    indicarselo a tu asesor de ventas ya que para esta funcionalidad se requieren algunos componentes adicionales.)
+                </p>
+            </li>
+            <li>¿Puedo inyectar a la red con este dispositivo?
+                <p>No, este dispositivo no admite la funcionalidad de inyeccion, solamente permite la entrada de red como una utilidad</p>
+            </li>
+            <li>¿El equipo realiza el bypass automatico en caso de cortes de energía?
+                <p>Si, el dispositivo tiene la capacidad de realizar bypass automatico sin que se afecte el funcionamiento de las 
+                    cargas conectadas.
+                </p>
+            </li>
+        </ul>
+  
+      </section>
+    </div>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <div id="paso2" class="collapse">
+      <section>
+        <h1>Descripción</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam recusandae quisquam voluptatum esse voluptas
+            voluptatibus? Non minima temporibus praesentium, sed debitis magnam aut illum mollitia vitae unde velit odio error!
+            Vel id illo eligendi voluptate neque libero. Exercitationem consequuntur deserunt rerum laborum, iste architecto,
+            quas, sunt labore magnam quod temporibus facere aliquam suscipit? Reprehenderit aut, laudantium sit eveniet possimus
+            blanditiis?
+            Fugiat maxime perferendis, eaque itaque repudiandae, necessitatibus ab suscipit ratione nemo nostrum iure vero
+            quisquam magni minima, molestiae dolore molestias voluptatibus! Perferendis commodi, id fuga suscipit similique
+            dolorum nostrum non.
+            A, mollitia nulla! Ipsam beatae ut quis quibusdam libero, error, doloribus soluta dolores, fuga provident accusamus
+            recusandae voluptatum itaque deserunt incidunt dolore. Illum ipsa nesciunt nobis dolores laudantium, cum aliquid.
+            Illum labore commodi excepturi, ab delectus et odit distinctio, soluta culpa temporibus voluptatem ratione inventore
+            ducimus corrupti aperiam omnis architecto assumenda ut? Quae repellendus harum fuga est tenetur nisi cupiditate.</p>
+      </section>
+    </div>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <div id="paso3" class="collapse">
+      <section>
+          <h1>Ficha Tecnica</h1>
+
+          <table class="table table-secondary">
+            <thead>
+              <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Descripción</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Voltaje DC</td>
+                <td>48V (Entrada de Baterias) </td>
+              </tr>
+              <tr>
+                <td>Voltaje AC</td>
+                <td>Entrada de voltaje 110 / 120 VAC , Salida 110 / 120 AC</td>
+              </tr>
+              <tr>
+                <td>Potencia</td>
+                <td>Nominal 3000W</td>
+              </tr>
+
+            </tbody>
+          </table>
+
+      </section>
+    </div>            
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <div id="paso4" class="collapse">
+      <section>
+        <h1>Documentos y Manuales</h1>
+        <a href="#"><i class="fas fa-file-pdf"></i> Descargar Manual</a>
+        <a href="#"><i class="fas fa-file-pdf"></i> Descargar Ficha Tecnica</a>
+      </section>
+    </div>      
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->   
+
+    <script>
+      $('.btn-secondary').on('click', function () {
+        $('.collapse').collapse('hide');
+      });
+    </script>
+
+</section>
+
+
+
+<div class="relacionados">
+    <h1>Dispositivos Similares</h1>
+    <img src="./media/img/panel_335W.jpg" alt="">
+    <img src="./media/img/panel_535W.jpg" alt="">
+    <img src="./media/img/bateria_gel_12_110.jpg" alt="">
+</div>
+
+</main>
+
+
+<footer class="piePagina" >
+
+    <div class="apartado" id="uno">
+      <input type="button" class=" botones btn btn-primary " value="¡ QUIERO APRENDER...!" class="leer">
+      <input type="button" class=" botones btn btn-primary " value="! NECESITO MÁS INFORMACIÓN ¡" class="leer">
+    </div>
+    
+    <div class="apartado" id="dos">
+    
+    <div id="fila_1">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-whatsapp"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+    <hr>
+    <div id="fila_2">
+      <ul>
+        <li>Inicio |</li>
+        <li>Blog |</li>
+        <li>Tienda |</li>
+        <li>Calculadora Solar</li>
+      </ul>
+    </div>
+    
+    
+    
+    
+    </div>
+    </footer>
+
+    </div> <!--Cierra Contenedor Fluido-->
+    
+
+
+  <!-- jQuery CDN - Slim version (=without AJAX) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Popper.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,37 @@
+Original banner Test
+.cajaBanner{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 13px;
+    margin-top: 13px;
+    /* background-image: url('../img/principal.jpg'); */
+    
+    background: -webkit-linear-gradient(top, #d4d3d3, #666666);
+}
+
+
+.cajaBanner img{
+    width: 90%;
+}
+
+.cajasBanner {
+    width: 450px;
+    /* height: 450px; */
+    max-height: 450px;
+    overflow:hidden;
+   }
+
+   .cajasBanner img{
+    width: 100%;
+}
+
+.cajasBanner h1{
+  color: #F21FA8;
+  font-size: 3rem;
+  font-family: 'Anton', sans-serif;
+}
+
+/*****************************************************************************/

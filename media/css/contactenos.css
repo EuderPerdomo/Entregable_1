@@ -55,3 +55,28 @@ div {
     margin-left: 25%;
   }
 
+@media screen and (max-width: 600px) {
+ 
+form{
+    width: 400px;
+}
+
+input{
+    width: 350px;
+}
+
+#mensaje{
+    width: 350px;
+}
+
+#enviar{
+    width: 350px;
+    width: 100%;
+  }
+
+
+  .boton input {
+    margin-left: 0%; 
+}
+
+      }

@@ -1,4 +1,4 @@
-
+#!/usr/bin/env node
 function CambiarClase() {
     var elemento = document.getElementById("test");
     if (elemento.className == "prueba") {
@@ -42,7 +42,8 @@ function enviarformulario() {
   var valido=true;
 
   if(nombre.value===""){
-      alert('El nombre esta vacio')
+    swal("El nombre no puede estar Vacio");
+      //alert('El nombre esta vacio');
       var valido=false;
       nombre.focus();
       return false;
@@ -72,8 +73,10 @@ function enviarformulario() {
   if (valido) {
       formulario.submit();
       alert("El formulario se envio Correctamente");
+      
   } else {
       alert("El formulario no puede ser enviado, Verifique la Validez de los datos");
+      
   }
 }
 window.addEventListener("load", validar);
